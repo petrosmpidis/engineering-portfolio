@@ -13,7 +13,7 @@ standalone programs. Source paths identify their origin in the complete project.
 
 The analysis compares prespecified FBN and HOS feature families, their combination, and supplementary PSD/cepstral feature sets. The extracted feature table is defined elsewhere.
 
-Source excerpt: `project/ANALYSIS/PTES_E1_E9_COMPACT/e6.m`, lines 16–21.
+Source excerpt:
 
 ```matlab
 featureSets = {D.families.FBN, D.families.HOS, ...
@@ -28,7 +28,7 @@ labels = {'FBN','HOS','FBN_HOS','PSD','PSD_FBN','PSD_HOS', ...
 
 The same evaluation interface registers mean/task-mean baselines and evaluates HOS and ALL features. The `models` list is configured elsewhere as Ridge, SVR, Random Forest and LSBoost. The cross-validation helper is outside this excerpt.
 
-Source excerpt: `project/ANALYSIS/PTES_E1_E9_COMPACT/e7.m`, lines 30–43.
+Source excerpt:
 
 ```matlab
 Results{end+1}=analysis_common('cv',T,zeros(height(T),0),{}, ...
