@@ -1,0 +1,41 @@
+# Local files and credentials
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# IDE and build state
+.vscode/
+.idea/
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.axf
+*.hex
+*.map
+*.vcd
+*.wlf
+*.asv
+*.slxc
+*.kicad_prl
+# Downloaded source data and newly generated training arrays
+data/raw/
+raw_data/
+X_raw_128x3.npy
+X_features.npy
+y_binary.npy
+y_severity.npy
+groups.npy
+feature_names.npy
+test_rsl10_modem_core
+test_rsl10_modem_core_sanitize
+test_tremor_adv_integration
+test_tremor_adv_integration_sanitize
