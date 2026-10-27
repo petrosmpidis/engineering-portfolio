@@ -35,22 +35,3 @@ current limitations. The six selected projects have a separate
 `CODE_EXCERPTS.md` with two short, contextualized extracts each.
 The full-source assignments retain their original reports where supplied.
 
-The EEG and CPU-analysis projects are team work and identify the collaborators.
-For EEG, I served as Project Lead and had primary responsibility for the
-feature-family and regression-model comparisons in questions 6 and 7.
-
-## Source availability
-
-The complete implementations and reports of the first six projects are
-retained separately. The public excerpts illustrate specific implementation
-decisions and are not standalone programs. Full-source assignments may still
-require external inputs or toolboxes documented in their READMEs.
-
-Reported experimental results are identified as project results; this public
-presentation does not represent a new execution of all experiments.
-
-## Contact
-
-GitHub: [@petrosmpidis](https://github.com/petrosmpidis)
-
-See [attribution and reuse](ATTRIBUTION.md).
